@@ -350,6 +350,25 @@
             transform: scale(1.1);
         }
 
+        .insight-number {
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #F1B2AF 0%, #ffc9c6 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 15px rgba(241, 178, 175, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .insight-item:hover .insight-number {
+            transform: scale(1.1);
+        }
+
         .product-name {
             flex: 1;
             font-size: 18px;
@@ -544,7 +563,7 @@
         .next-steps-icon {
             width: 64px;
             height: 64px;
-            background: linear-gradient(135deg, #F1B2AF 0%, #ffc9c6 100%);
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
             border-radius: 16px;
             display: flex;
             align-items: center;
@@ -695,44 +714,7 @@
             </h2>
 
             <div class="performance-grid">
-                <!-- September Card -->
-                <div class="performance-card">
-                    <div class="card-glow"></div>
-                    <div class="card-content glass-card">
-                        <div class="card-header">
-                            <h3>September</h3>
-                            <span class="badge badge-pink">19th - 30th</span>
-                        </div>
-                        <div class="metrics-grid">
-                            <div class="metric-box">
-                                <p class="metric-label">Amount Spent</p>
-                                <p class="metric-value">₹50,252</p>
-                            </div>
-                            <div class="metric-box">
-                                <p class="metric-label">Orders</p>
-                                <p class="metric-value pink">36</p>
-                            </div>
-                            <div class="metric-box">
-                                <p class="metric-label">Revenue</p>
-                                <p class="metric-value">₹99,645</p>
-                            </div>
-                            <div class="metric-box">
-                                <p class="metric-label">ROAS</p>
-                                <p class="metric-value pink">1.98x</p>
-                            </div>
-                            <div class="metric-box">
-                                <p class="metric-label">AOV</p>
-                                <p class="metric-value">₹3,085</p>
-                            </div>
-                            <div class="metric-box">
-                                <p class="metric-label">CTR</p>
-                                <p class="metric-value pink">3.3%</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- October Card -->
+                <!-- Nov Card -->
                 <div class="performance-card">
                     <div class="card-glow green"></div>
                     <div class="card-content glass-card green-border">
@@ -743,27 +725,23 @@
                         <div class="metrics-grid">
                             <div class="metric-box green-hover">
                                 <p class="metric-label">Amount Spent</p>
-                                <p class="metric-value">₹2,01,937</p>
+                                <p class="metric-value">₹2,76,076</p>
                             </div>
                             <div class="metric-box green-hover">
                                 <p class="metric-label">Orders</p>
-                                <p class="metric-value green">299</p>
+                                <p class="metric-value green">279</p>
                             </div>
                             <div class="metric-box green-hover">
                                 <p class="metric-label">Revenue</p>
-                                <p class="metric-value">₹5,94,071</p>
+                                <p class="metric-value">₹6,38,694</p>
                             </div>
                             <div class="metric-box green-hover">
                                 <p class="metric-label">ROAS</p>
-                                <p class="metric-value green">2.94x</p>
+                                <p class="metric-value green">2.3x</p>
                             </div>
                             <div class="metric-box green-hover">
                                 <p class="metric-label">AOV</p>
-                                <p class="metric-value">1,986</p>
-                            </div>
-                            <div class="metric-box green-hover">
-                                <p class="metric-label">CTR</p>
-                                <p class="metric-value green">6.3%</p>
+                                <p class="metric-value">₹2,288</p>
                             </div>
                         </div>
                     </div>
@@ -781,49 +759,35 @@
             <div class="products-container glass-card">
                 <div class="product-item">
                     <div class="product-rank">1</div>
-                    <div class="product-name">Multicolor Heavy Designer Bangles</div>
+                    <div class="product-name">Embroidered Designer Necklace</div>
                     <svg class="icon product-arrow" viewBox="0 0 24 24">
                         <path d="M9 5l7 7-7 7"/>
                     </svg>
                 </div>
                 <div class="product-item">
                     <div class="product-rank">2</div>
-                    <div class="product-name">Designer Peacock Premium Bracelet</div>
+                    <div class="product-name">Sweet Flowers Necklace</div>
                     <svg class="icon product-arrow" viewBox="0 0 24 24">
                         <path d="M9 5l7 7-7 7"/>
                     </svg>
                 </div>
                 <div class="product-item">
                     <div class="product-rank">3</div>
-                    <div class="product-name">Long Triple Layered Multicolor Mala Set</div>
+                    <div class="product-name">Designer Antique Short Necklace</div>
                     <svg class="icon product-arrow" viewBox="0 0 24 24">
                         <path d="M9 5l7 7-7 7"/>
                     </svg>
                 </div>
                 <div class="product-item">
                     <div class="product-rank">4</div>
-                    <div class="product-name">Heritage Two Finger Ring</div>
+                    <div class="product-name">Designer Big Stone Pendant Set</div>
                     <svg class="icon product-arrow" viewBox="0 0 24 24">
                         <path d="M9 5l7 7-7 7"/>
                     </svg>
                 </div>
                 <div class="product-item">
                     <div class="product-rank">5</div>
-                    <div class="product-name">Big Cocktail Ring</div>
-                    <svg class="icon product-arrow" viewBox="0 0 24 24">
-                        <path d="M9 5l7 7-7 7"/>
-                    </svg>
-                </div>
-                <div class="product-item">
-                    <div class="product-rank">6</div>
-                    <div class="product-name">Heavy Elephant Golden Necklace</div>
-                    <svg class="icon product-arrow" viewBox="0 0 24 24">
-                        <path d="M9 5l7 7-7 7"/>
-                    </svg>
-                </div>
-                <div class="product-item">
-                    <div class="product-rank">7</div>
-                    <div class="product-name">Designer Antique Short Necklace</div>
+                    <div class="product-name">Heavy Rajwada Polish Bangles</div>
                     <svg class="icon product-arrow" viewBox="0 0 24 24">
                         <path d="M9 5l7 7-7 7"/>
                     </svg>
@@ -842,7 +806,7 @@
                 <!-- Creative #1 -->
                 <div class="creative-card">
                     <div class="creative-image-wrapper">
-                        <img src="./oct/CAO1.png" 
+                        <img src="./nov/CAO1.png" 
                              alt="Creative 1" 
                              class="creative-image">
                         <div class="creative-number">1</div>
@@ -851,19 +815,19 @@
                     <div class="creative-kpis">
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">Revenue</div>
-                            <div class="creative-kpi-value highlight">₹4,90,596</div>
+                            <div class="creative-kpi-value highlight">₹1,50,767</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">CTR</div>
-                            <div class="creative-kpi-value">7.28%</div>
+                            <div class="creative-kpi-value">6.30%</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">ROAS</div>
-                            <div class="creative-kpi-value highlight">3.32x</div>
+                            <div class="creative-kpi-value highlight">2.96x</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">Ad Spent</div>
-                            <div class="creative-kpi-value">₹1,47,838</div>
+                            <div class="creative-kpi-value">₹50,983</div>
                         </div>
                     </div>
                 </div>
@@ -871,7 +835,7 @@
                 <!-- Creative #2 -->
                 <div class="creative-card">
                     <div class="creative-image-wrapper">
-                        <img src="./oct/CAO2.png" 
+                        <img src="./nov/CAO2.png" 
                              alt="Creative 2" 
                              class="creative-image">
                         <div class="creative-number">2</div>
@@ -880,19 +844,19 @@
                     <div class="creative-kpis">
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">Revenue</div>
-                            <div class="creative-kpi-value highlight">₹93,209</div>
+                            <div class="creative-kpi-value highlight">₹19,750</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">CTR</div>
-                            <div class="creative-kpi-value">5.68%</div>
+                            <div class="creative-kpi-value">4.82%</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">ROAS</div>
-                            <div class="creative-kpi-value highlight">4.55x</div>
+                            <div class="creative-kpi-value highlight">2.94x</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">Ad Spent</div>
-                            <div class="creative-kpi-value">₹20,478</div>
+                            <div class="creative-kpi-value">₹6,713</div>
                         </div>
                     </div>
                 </div>
@@ -900,7 +864,7 @@
                 <!-- Creative #3 -->
                 <div class="creative-card">
                     <div class="creative-image-wrapper">
-                        <img src="./oct/CAO3.png" 
+                        <img src="./nov/CAO3.png" 
                              alt="Creative 3" 
                              class="creative-image">
                         <div class="creative-number">3</div>
@@ -909,19 +873,19 @@
                     <div class="creative-kpis">
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">Revenue</div>
-                            <div class="creative-kpi-value highlight">₹24,874</div>
+                            <div class="creative-kpi-value highlight">₹3,48,087</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">CTR</div>
-                            <div class="creative-kpi-value">3.79%</div>
+                            <div class="creative-kpi-value">6.96%</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">ROAS</div>
-                            <div class="creative-kpi-value highlight">2.11x</div>
+                            <div class="creative-kpi-value highlight">2.08x</div>
                         </div>
                         <div class="creative-kpi">
                             <div class="creative-kpi-label">Ad Spent</div>
-                            <div class="creative-kpi-value">₹11,805</div>
+                            <div class="creative-kpi-value">₹1,67,702</div>
                         </div>
                     </div>
                 </div>
@@ -942,28 +906,16 @@
 
                 <div class="insights-list">
                     <div class="insight-item">
-                        <span class="insight-emoji">💎</span>
-                        <p class="insight-text">Designer Bangles and Peacock Bracelets were the top-performing products, driving significant revenue.</p>
+                        <span class="insight-number">1</span>
+                        <p class="insight-text">Black Friday campaigns did not perform as expected, indicating that promotional intent during this period did not align with audience behavior for these product categories.</p>
                     </div>
                     <div class="insight-item">
-                        <span class="insight-emoji">📊</span>
-                        <p class="insight-text">Product trends shifted from rings to bangles, bracelets, and necklaces, indicating evolving customer preferences.</p>
+                        <span class="insight-number">2</span>
+                        <p class="insight-text">New audience segments tested with higher AOV products showed positive results.</p>
                     </div>
                     <div class="insight-item">
-                        <span class="insight-emoji">📈</span>
-                        <p class="insight-text">Daily budgets were strategically scaled from ₹5,000 to ₹8,000, contributing to improved performance and growth.</p>
-                    </div>
-                    <div class="insight-item">
-                        <span class="insight-emoji">🎨</span>
-                        <p class="insight-text">Catalog ads emerged as the best-performing ad format, delivering superior engagement and conversion rates.</p>
-                    </div>
-                    <div class="insight-item">
-                        <span class="insight-emoji">📦</span>
-                        <p class="insight-text">15 products went out of stock during this period, indicating strong demand.</p>
-                    </div>
-                    <div class="insight-item">
-                        <span class="insight-emoji">🎯</span>
-                        <p class="insight-text">Successfully tested multiple audience strategies including ad+ open audience, detailed targeting, and metro cities targeting to optimize reach.</p>
+                        <span class="insight-number">3</span>
+                        <p class="insight-text">Retargeting campaigns were tested and contributed to improved conversion efficiency.</p>
                     </div>
                 </div>
 
@@ -979,11 +931,11 @@
                 <div class="steps-list">
                     <div class="step-card">
                         <div class="step-number">1</div>
-                        <p class="step-text">Retarget users who visited the website, added products to cart, or reached checkout to maximize conversion opportunities.</p>
+                        <p class="step-text">Gradually scale ad spend to ₹15,000 per day while monitoring ROAS and conversion stability.</p>
                     </div>
                     <div class="step-card">
                         <div class="step-number">2</div>
-                        <p class="step-text">Scale campaigns to ₹15,000 per day in November to capitalize on strong October performance and drive continued growth.</p>
+                        <p class="step-text">Test multiple video creative variations to identify formats that drive stronger engagement and lower acquisition costs.</p>
                     </div>
                 </div>
             </div>
